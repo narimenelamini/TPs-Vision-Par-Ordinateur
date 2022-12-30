@@ -17,7 +17,7 @@ def determineBlackPixel(img):
                 return y,x
 
 
-heightImg, widthImg = 200, 400
+heightImg, widthImg = 400, 400
 img = createImgWithPointRand(heightImg, widthImg)
 (py, px) = determineBlackPixel(img)
 #print(a, " ", b)
